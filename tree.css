@@ -1,0 +1,16 @@
+.container {
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div.tooltip {
+  position: absolute;
+  background: lightblue;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+}
