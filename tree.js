@@ -99,7 +99,6 @@ const buildChart = async () => {
     .style("stroke", "white")
     .attr("fill", d=> colorScheme(d.parent.data.name))
      .on('mouseover', d => {
-    console.log(d);
       div.transition()
       // .duration(0)
       .style('opacity', 1);
